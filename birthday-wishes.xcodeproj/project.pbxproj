@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5AAA9CF5722CD2C117EA00 /* Pods_birthday_wishesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E7279E7832E006435D57A6 /* Pods_birthday_wishesTests.framework */; };
+		9C52FFC11F715DB0008ED04A /* SectionHeaderCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C52FFC01F715DB0008ED04A /* SectionHeaderCollectionReusableView.swift */; };
+		9C6B4CBD1F7013680080BF95 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B4CBC1F7013680080BF95 /* CategoryViewController.swift */; };
+		9C6B4CBF1F70158C0080BF95 /* CategoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C6B4CBE1F70158C0080BF95 /* CategoryTableViewCell.swift */; };
+		9C7A55651F6957F700AC6ADB /* Wish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A55641F6957F700AC6ADB /* Wish.swift */; };
+		9C7A556D1F696C2000AC6ADB /* WishCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A556C1F696C2000AC6ADB /* WishCollectionViewController.swift */; };
+		9C7A556F1F6970CA00AC6ADB /* WishCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C7A556E1F6970CA00AC6ADB /* WishCollectionViewCell.swift */; };
+		9CF004051F6810C800DC341E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF004041F6810C800DC341E /* AppDelegate.swift */; };
+		9CF004071F6810C800DC341E /* WishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF004061F6810C800DC341E /* WishViewController.swift */; };
+		9CF0040A1F6810C800DC341E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF004081F6810C800DC341E /* Main.storyboard */; };
+		9CF0040C1F6810C800DC341E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CF0040B1F6810C800DC341E /* Assets.xcassets */; };
+		9CF0040F1F6810C800DC341E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CF0040D1F6810C800DC341E /* LaunchScreen.storyboard */; };
+		9CF0041A1F6810C900DC341E /* birthday_wishesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF004191F6810C900DC341E /* birthday_wishesTests.swift */; };
+		9CF004261F68160000DC341E /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CF004251F68160000DC341E /* Extensions.swift */; };
+		E251C978F82CA25913E5C1CE /* Pods_birthday_wishes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D76E6235D0E750759145F53D /* Pods_birthday_wishes.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9CF004161F6810C900DC341E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CF003F91F6810C800DC341E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9CF004001F6810C800DC341E;
+			remoteInfo = "birthday-wishes";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B52EB05D4636997F61E245F /* Pods-birthday-wishesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthday-wishesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-birthday-wishesTests/Pods-birthday-wishesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9C52FFC01F715DB0008ED04A /* SectionHeaderCollectionReusableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionHeaderCollectionReusableView.swift; sourceTree = "<group>"; };
+		9C6B4CBC1F7013680080BF95 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		9C6B4CBE1F70158C0080BF95 /* CategoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryTableViewCell.swift; sourceTree = "<group>"; };
+		9C7A55641F6957F700AC6ADB /* Wish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wish.swift; sourceTree = "<group>"; };
+		9C7A556C1F696C2000AC6ADB /* WishCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishCollectionViewController.swift; sourceTree = "<group>"; };
+		9C7A556E1F6970CA00AC6ADB /* WishCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WishCollectionViewCell.swift; sourceTree = "<group>"; };
+		9CF004011F6810C800DC341E /* birthday-wishes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "birthday-wishes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF004041F6810C800DC341E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9CF004061F6810C800DC341E /* WishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishViewController.swift; sourceTree = "<group>"; };
+		9CF004091F6810C800DC341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9CF0040B1F6810C800DC341E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9CF0040E1F6810C800DC341E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9CF004101F6810C800DC341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF004151F6810C900DC341E /* birthday-wishesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "birthday-wishesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CF004191F6810C900DC341E /* birthday_wishesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = birthday_wishesTests.swift; sourceTree = "<group>"; };
+		9CF0041B1F6810C900DC341E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CF004251F68160000DC341E /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		C7E7279E7832E006435D57A6 /* Pods_birthday_wishesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthday_wishesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D76E6235D0E750759145F53D /* Pods_birthday_wishes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_birthday_wishes.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E12A9DE80B099C11E005368C /* Pods-birthday-wishes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthday-wishes.debug.xcconfig"; path = "Pods/Target Support Files/Pods-birthday-wishes/Pods-birthday-wishes.debug.xcconfig"; sourceTree = "<group>"; };
+		E7E589E2512FE88E7CE25D65 /* Pods-birthday-wishes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthday-wishes.release.xcconfig"; path = "Pods/Target Support Files/Pods-birthday-wishes/Pods-birthday-wishes.release.xcconfig"; sourceTree = "<group>"; };
+		E9D1241867C17F367F839165 /* Pods-birthday-wishesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-birthday-wishesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-birthday-wishesTests/Pods-birthday-wishesTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CF003FE1F6810C800DC341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E251C978F82CA25913E5C1CE /* Pods_birthday_wishes.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF004121F6810C900DC341E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A5AAA9CF5722CD2C117EA00 /* Pods_birthday_wishesTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		515A2DDBA52CAEFEE2755965 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D76E6235D0E750759145F53D /* Pods_birthday_wishes.framework */,
+				C7E7279E7832E006435D57A6 /* Pods_birthday_wishesTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C7A55661F6957FB00AC6ADB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A55641F6957F700AC6ADB /* Wish.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9C7A55671F69580D00AC6ADB /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9CF004061F6810C800DC341E /* WishViewController.swift */,
+				9C7A556C1F696C2000AC6ADB /* WishCollectionViewController.swift */,
+				9C6B4CBC1F7013680080BF95 /* CategoryViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9C7A55691F69582C00AC6ADB /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9CF0040D1F6810C800DC341E /* LaunchScreen.storyboard */,
+				9CF004081F6810C800DC341E /* Main.storyboard */,
+				9C7A556E1F6970CA00AC6ADB /* WishCollectionViewCell.swift */,
+				9C52FFC01F715DB0008ED04A /* SectionHeaderCollectionReusableView.swift */,
+				9C6B4CBE1F70158C0080BF95 /* CategoryTableViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9CF003F81F6810C800DC341E = {
+			isa = PBXGroup;
+			children = (
+				9CF004031F6810C800DC341E /* birthday-wishes */,
+				9CF004181F6810C900DC341E /* birthday-wishesTests */,
+				9CF004021F6810C800DC341E /* Products */,
+				DE7306B78EE167C4219CFC5A /* Pods */,
+				515A2DDBA52CAEFEE2755965 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9CF004021F6810C800DC341E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CF004011F6810C800DC341E /* birthday-wishes.app */,
+				9CF004151F6810C900DC341E /* birthday-wishesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CF004031F6810C800DC341E /* birthday-wishes */ = {
+			isa = PBXGroup;
+			children = (
+				9C7A55661F6957FB00AC6ADB /* Model */,
+				9C7A55691F69582C00AC6ADB /* View */,
+				9C7A55671F69580D00AC6ADB /* Controller */,
+				9CF004041F6810C800DC341E /* AppDelegate.swift */,
+				9CF0040B1F6810C800DC341E /* Assets.xcassets */,
+				9CF004101F6810C800DC341E /* Info.plist */,
+				9CF004241F6815F100DC341E /* Extensions */,
+			);
+			path = "birthday-wishes";
+			sourceTree = "<group>";
+		};
+		9CF004181F6810C900DC341E /* birthday-wishesTests */ = {
+			isa = PBXGroup;
+			children = (
+				9CF004191F6810C900DC341E /* birthday_wishesTests.swift */,
+				9CF0041B1F6810C900DC341E /* Info.plist */,
+			);
+			path = "birthday-wishesTests";
+			sourceTree = "<group>";
+		};
+		9CF004241F6815F100DC341E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9CF004251F68160000DC341E /* Extensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		DE7306B78EE167C4219CFC5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E12A9DE80B099C11E005368C /* Pods-birthday-wishes.debug.xcconfig */,
+				E7E589E2512FE88E7CE25D65 /* Pods-birthday-wishes.release.xcconfig */,
+				8B52EB05D4636997F61E245F /* Pods-birthday-wishesTests.debug.xcconfig */,
+				E9D1241867C17F367F839165 /* Pods-birthday-wishesTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CF004001F6810C800DC341E /* birthday-wishes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF0041E1F6810C900DC341E /* Build configuration list for PBXNativeTarget "birthday-wishes" */;
+			buildPhases = (
+				2714D0A5E21739472A6831AB /* [CP] Check Pods Manifest.lock */,
+				9CF003FD1F6810C800DC341E /* Sources */,
+				9CF003FE1F6810C800DC341E /* Frameworks */,
+				9CF003FF1F6810C800DC341E /* Resources */,
+				160F6CB5224D81EEBE0BA9B5 /* [CP] Embed Pods Frameworks */,
+				32FBDB2113BD8BD3C4F22912 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "birthday-wishes";
+			productName = "birthday-wishes";
+			productReference = 9CF004011F6810C800DC341E /* birthday-wishes.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9CF004141F6810C900DC341E /* birthday-wishesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CF004211F6810C900DC341E /* Build configuration list for PBXNativeTarget "birthday-wishesTests" */;
+			buildPhases = (
+				88ED5498F11903717EC7C17F /* [CP] Check Pods Manifest.lock */,
+				9CF004111F6810C900DC341E /* Sources */,
+				9CF004121F6810C900DC341E /* Frameworks */,
+				9CF004131F6810C900DC341E /* Resources */,
+				FD6A54EAA36D5F7E80025455 /* [CP] Embed Pods Frameworks */,
+				7BA745066F5F123270C8599A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9CF004171F6810C900DC341E /* PBXTargetDependency */,
+			);
+			name = "birthday-wishesTests";
+			productName = "birthday-wishesTests";
+			productReference = 9CF004151F6810C900DC341E /* birthday-wishesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CF003F91F6810C800DC341E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Morten Saabye Kristensen";
+				TargetAttributes = {
+					9CF004001F6810C800DC341E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9CF004141F6810C900DC341E = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9CF004001F6810C800DC341E;
+					};
+				};
+			};
+			buildConfigurationList = 9CF003FC1F6810C800DC341E /* Build configuration list for PBXProject "birthday-wishes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9CF003F81F6810C800DC341E;
+			productRefGroup = 9CF004021F6810C800DC341E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CF004001F6810C800DC341E /* birthday-wishes */,
+				9CF004141F6810C900DC341E /* birthday-wishesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CF003FF1F6810C800DC341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF0040F1F6810C800DC341E /* LaunchScreen.storyboard in Resources */,
+				9CF0040C1F6810C800DC341E /* Assets.xcassets in Resources */,
+				9CF0040A1F6810C800DC341E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF004131F6810C900DC341E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160F6CB5224D81EEBE0BA9B5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-birthday-wishes/Pods-birthday-wishes-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/URLEmbeddedView/URLEmbeddedView.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/URLEmbeddedView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthday-wishes/Pods-birthday-wishes-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2714D0A5E21739472A6831AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-birthday-wishes-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32FBDB2113BD8BD3C4F22912 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthday-wishes/Pods-birthday-wishes-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BA745066F5F123270C8599A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthday-wishesTests/Pods-birthday-wishesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88ED5498F11903717EC7C17F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-birthday-wishesTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD6A54EAA36D5F7E80025455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-birthday-wishesTests/Pods-birthday-wishesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CF003FD1F6810C800DC341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C7A55651F6957F700AC6ADB /* Wish.swift in Sources */,
+				9CF004071F6810C800DC341E /* WishViewController.swift in Sources */,
+				9C6B4CBD1F7013680080BF95 /* CategoryViewController.swift in Sources */,
+				9C52FFC11F715DB0008ED04A /* SectionHeaderCollectionReusableView.swift in Sources */,
+				9CF004261F68160000DC341E /* Extensions.swift in Sources */,
+				9CF004051F6810C800DC341E /* AppDelegate.swift in Sources */,
+				9C7A556D1F696C2000AC6ADB /* WishCollectionViewController.swift in Sources */,
+				9C7A556F1F6970CA00AC6ADB /* WishCollectionViewCell.swift in Sources */,
+				9C6B4CBF1F70158C0080BF95 /* CategoryTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9CF004111F6810C900DC341E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF0041A1F6810C900DC341E /* birthday_wishesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CF004171F6810C900DC341E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9CF004001F6810C800DC341E /* birthday-wishes */;
+			targetProxy = 9CF004161F6810C900DC341E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9CF004081F6810C800DC341E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF004091F6810C800DC341E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9CF0040D1F6810C800DC341E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CF0040E1F6810C800DC341E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CF0041C1F6810C900DC341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9CF0041D1F6810C900DC341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CF0041F1F6810C900DC341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E12A9DE80B099C11E005368C /* Pods-birthday-wishes.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "birthday-wishes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.birthday-wishes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9CF004201F6810C900DC341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7E589E2512FE88E7CE25D65 /* Pods-birthday-wishes.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "birthday-wishes/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.birthday-wishes";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9CF004221F6810C900DC341E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B52EB05D4636997F61E245F /* Pods-birthday-wishesTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "birthday-wishesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.birthday-wishesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birthday-wishes.app/birthday-wishes";
+			};
+			name = Debug;
+		};
+		9CF004231F6810C900DC341E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D1241867C17F367F839165 /* Pods-birthday-wishesTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "birthday-wishesTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.birthday-wishesTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/birthday-wishes.app/birthday-wishes";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CF003FC1F6810C800DC341E /* Build configuration list for PBXProject "birthday-wishes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF0041C1F6810C900DC341E /* Debug */,
+				9CF0041D1F6810C900DC341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF0041E1F6810C900DC341E /* Build configuration list for PBXNativeTarget "birthday-wishes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF0041F1F6810C900DC341E /* Debug */,
+				9CF004201F6810C900DC341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CF004211F6810C900DC341E /* Build configuration list for PBXNativeTarget "birthday-wishesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF004221F6810C900DC341E /* Debug */,
+				9CF004231F6810C900DC341E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9CF003F91F6810C800DC341E /* Project object */;
+}

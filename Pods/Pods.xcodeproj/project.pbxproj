@@ -1,0 +1,1042 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08700CBB713B443AFA394EFD6B74E402 /* libxmlHTMLNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19EC126B8D992509030B3E185C34E1BB /* libxmlHTMLNode.swift */; };
+		1510B0BC51A3CD8127C3987814DD728D /* URLEmbeddedViewOGData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 683F32B67398DE3EC117FFAD8BF13A11 /* URLEmbeddedViewOGData.xcdatamodeld */; };
+		1C3E609E2CAFDD9FAAFCA98256B973A9 /* NSUserDefaults+URLEmbeddedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE01C8C698024431163699A32C7F7E42 /* NSUserDefaults+URLEmbeddedView.swift */; };
+		28C23AF195F149001633604C101552B5 /* URLEmbeddedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007FB6652FCD2D21A643F3325100F833 /* URLEmbeddedView.swift */; };
+		2C2D7F442CF0C1F21371E42AFF1237CE /* AttributedTextProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46EF8FF77F1EDEC7554537B7F57BD0CD /* AttributedTextProvider.swift */; };
+		309000D57FF0CDDC352804D7C7FE9596 /* Kanna.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 456B4509DE5580DCDE4E4B17D170C065 /* Kanna.framework */; };
+		322F32F75AC8A04064F70A089800AF88 /* Kanna-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D91E9928F7192AE0B027CCED319085D /* Kanna-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		356111B4079DD9FE62A8D96CB45EFFA6 /* URLEmbeddedView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 70237B28A980DA4EF6EE19EFC194FDAE /* URLEmbeddedView-dummy.m */; };
+		3DB400D8B8AADDF43E1439E3441E814B /* Kanna-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F8360C77C8B25DEF869F08F9AC1FC9 /* Kanna-dummy.m */; };
+		3FDA3C771334B54A542EE668A990FB0C /* Pods-birthday-wishesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D86013C77938058903C99E9DCCE964A /* Pods-birthday-wishesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436871564BF1C99AA86206B69CDB40DD /* Kanna.h in Headers */ = {isa = PBXBuildFile; fileRef = 8766746290259F8471E626748DE92F57 /* Kanna.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		488A4541D8B7910FE1E8F3703F9A6EA3 /* NSTimeInterval+Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2468164D76507819B4E86DFD7F79F659 /* NSTimeInterval+Util.swift */; };
+		49171C6E4AE48F486FE4DDF2AA168CE9 /* Pods-birthday-wishesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF77BDEBD732990CB22F1879CC91511F /* Pods-birthday-wishesTests-dummy.m */; };
+		4FF9809EBDAA925149F0A60D390BDD72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9456AF24FC473DD4220A048D59EC06 /* Foundation.framework */; };
+		52D1298545E0584446BF204E1ACDD0CC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B86BD474D05E6977640FCC002B123DB6 /* CoreData.framework */; };
+		577A8741EB585646BCCA5401B0820D95 /* OGImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5ECDCE8D02A74752F54D7327767B8B6 /* OGImageCacheManager.swift */; };
+		57E46514DC7D6A3F1944CE4F2E600205 /* URLEmbeddedView+Inspectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FDDD65A7D72FFF631C305C0462DFC6 /* URLEmbeddedView+Inspectable.swift */; };
+		60B064CE73434F0EF05BEC5E68F30304 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C33A49CC46BF541A23835016006F9EE2 /* AutoLayout.swift */; };
+		62D4E2F3C65B75D7FFBCB09D30850129 /* AttributeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6105A3CF49C327267CDE32D3FFCF9DEA /* AttributeManager.swift */; };
+		631E31CDB13826FF2FB6CF95BA55391E /* OGDataCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB4E52B8714F5919E8398C53CBFB496B /* OGDataCacheManager.swift */; };
+		634F01C0D06986FD15F647234ADA7CBC /* Kanna.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA7DFB19C43C6509A300EE250F9EFDA3 /* Kanna.swift */; };
+		6ADDB372030582054CAE4F5CF6431613 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9456AF24FC473DD4220A048D59EC06 /* Foundation.framework */; };
+		6E944F9140F3BB06D40EE1153F405F68 /* URLEmbeddedView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F09F30008D30F70233DD14635C92ABE0 /* URLEmbeddedView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		781A4D12CC4A83EA4705C6029254B012 /* libxmlHTMLDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A9BB6F04F5FAE2AB8593F8E0E5A80 /* libxmlHTMLDocument.swift */; };
+		7BA1CACD3626FEE711BC73F2B2971E09 /* TaskContainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073472BC61F5C4CDA443BD9F62A98E37 /* TaskContainable.swift */; };
+		932B765525295BF8C8A104BEE8AA839E /* Pods-birthday-wishes-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF25AD710427E896412346E8E1BE491 /* Pods-birthday-wishes-dummy.m */; };
+		9FA42649A31E3018EF9F4085856AF1C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9456AF24FC473DD4220A048D59EC06 /* Foundation.framework */; };
+		A4B33A77DD93E629F203CF25710FEA0F /* OGData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 978CD6CFFC832ADDA5A0AA1BFDF88ABE /* OGData.swift */; };
+		AC2C938FD5A7BE73F8CAD8D7EED0A696 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 846CFA7AC88B9FD943057D742E1E1062 /* UIKit.framework */; };
+		AF863C36D259D89189A0BDF54912C76E /* CSS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042F830F0B56810EE90E420EF5B9A5AC /* CSS.swift */; };
+		B0DB4EA9A6E225F4D47DC31EFC08280B /* LinkIcon.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FCAD64428333E2E339C3693C8EF903D7 /* LinkIcon.pdf */; };
+		B3A082160D62358DB8F7F7C9EC3C1B2E /* LinkIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1642E7FF9963A4142D306D2680FC12A /* LinkIconView.swift */; };
+		BDF7CD97A8EE3BFD2EF49A5815E19990 /* Pods-birthday-wishes-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE69EFEEDE2A87311139FDF925482C67 /* Pods-birthday-wishes-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C5427EAD25655E66C87E7BAB9B44BB91 /* URLImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB4500DE0D6C92351D3DE65D8734E7FD /* URLImageView.swift */; };
+		CB9D7976C12527623445D7FD7A63B6C5 /* OGImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644D5A4A070255370C0228269AF6A908 /* OGImageProvider.swift */; };
+		DEB355BD46C50E1F4DC779C290C61EEC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4265D65075AB8BA43BF824DD1C7861 /* CoreGraphics.framework */; };
+		E018BD97BF4B85D6B89910DAC134D65B /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2CC2853614626431AE7985556BE92B4 /* MD5.swift */; };
+		E89F681737CD990810086AFCE74C82FB /* OGDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C27F2408FBACA1ADCB2C6717A1C1404 /* OGDataProvider.swift */; };
+		E8C48CFC27DF7A6BE74125C04AEBF2A2 /* OGData+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D54CC5A66251FA139E78994BC4EE1D0 /* OGData+CoreDataProperties.swift */; };
+		F162DCCDB4ED88E5498879847E5CF7C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C9456AF24FC473DD4220A048D59EC06 /* Foundation.framework */; };
+		FD87F8764674EFAAF3AABCA2552E5127 /* libxmlParserOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB3810AD0790578B373A80A37664012 /* libxmlParserOption.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF74F562410ADD927BCF648FD42C29F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D10E4FF5A483B852B47CCA0B994E340;
+			remoteInfo = Kanna;
+		};
+		BA1FA7FF4D629D20FFF0BBE77512DCCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D10E4FF5A483B852B47CCA0B994E340;
+			remoteInfo = Kanna;
+		};
+		C6E801FF676FD2EB34CC53F7661CF6DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B455855AB25B4327F72DC377DCE15661;
+			remoteInfo = URLEmbeddedView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		007FB6652FCD2D21A643F3325100F833 /* URLEmbeddedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEmbeddedView.swift; path = URLEmbeddedView/URLEmbeddedView.swift; sourceTree = "<group>"; };
+		0114BCB5287E500EE8F74803C5FDDF0F /* Pods-birthday-wishes-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthday-wishes-resources.sh"; sourceTree = "<group>"; };
+		0219AE116361D1C0D253FDEC5DA6BEAD /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Kanna.framework; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		042F830F0B56810EE90E420EF5B9A5AC /* CSS.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CSS.swift; path = Sources/Kanna/CSS.swift; sourceTree = "<group>"; };
+		073472BC61F5C4CDA443BD9F62A98E37 /* TaskContainable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaskContainable.swift; path = URLEmbeddedView/TaskContainable.swift; sourceTree = "<group>"; };
+		08DBA091D4D8A28CA446E75AECE82C1C /* Pods-birthday-wishesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthday-wishesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A1F5C51A38A3587BB04145B443A2760 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19EC126B8D992509030B3E185C34E1BB /* libxmlHTMLNode.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLNode.swift; path = Sources/Kanna/libxmlHTMLNode.swift; sourceTree = "<group>"; };
+		2468164D76507819B4E86DFD7F79F659 /* NSTimeInterval+Util.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSTimeInterval+Util.swift"; path = "URLEmbeddedView/NSTimeInterval+Util.swift"; sourceTree = "<group>"; };
+		26245624DFDA3D5F2CECE9EE27D18D4F /* URLEmbeddedView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = URLEmbeddedView.modulemap; sourceTree = "<group>"; };
+		2966430C7880EDDBCCDD27FBD411F72F /* URLEmbeddedViewOGData.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = URLEmbeddedViewOGData.xcdatamodel; sourceTree = "<group>"; };
+		2C27F2408FBACA1ADCB2C6717A1C1404 /* OGDataProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OGDataProvider.swift; path = URLEmbeddedView/OGDataProvider.swift; sourceTree = "<group>"; };
+		2D91E9928F7192AE0B027CCED319085D /* Kanna-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-umbrella.h"; sourceTree = "<group>"; };
+		2EA910ADEFABD9F42D67E2A38C00E494 /* Pods-birthday-wishes-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-birthday-wishes-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3BBE036B4A443BA521C0E7CCEC5B9912 /* URLEmbeddedView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLEmbeddedView-prefix.pch"; sourceTree = "<group>"; };
+		3BC0466090CE06F2A50F078E300B2F50 /* Pods-birthday-wishesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthday-wishesTests.release.xcconfig"; sourceTree = "<group>"; };
+		3C9456AF24FC473DD4220A048D59EC06 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		42FDDD65A7D72FFF631C305C0462DFC6 /* URLEmbeddedView+Inspectable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLEmbeddedView+Inspectable.swift"; path = "URLEmbeddedView/URLEmbeddedView+Inspectable.swift"; sourceTree = "<group>"; };
+		456B4509DE5580DCDE4E4B17D170C065 /* Kanna.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Kanna.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46EF8FF77F1EDEC7554537B7F57BD0CD /* AttributedTextProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributedTextProvider.swift; path = URLEmbeddedView/AttributedTextProvider.swift; sourceTree = "<group>"; };
+		46F8360C77C8B25DEF869F08F9AC1FC9 /* Kanna-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Kanna-dummy.m"; sourceTree = "<group>"; };
+		4CF25AD710427E896412346E8E1BE491 /* Pods-birthday-wishes-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-birthday-wishes-dummy.m"; sourceTree = "<group>"; };
+		4F2657B724C1ADC9E34E0160292F2F2E /* Pods-birthday-wishesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthday-wishesTests-frameworks.sh"; sourceTree = "<group>"; };
+		5D86013C77938058903C99E9DCCE964A /* Pods-birthday-wishesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-birthday-wishesTests-umbrella.h"; sourceTree = "<group>"; };
+		6105A3CF49C327267CDE32D3FFCF9DEA /* AttributeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AttributeManager.swift; path = URLEmbeddedView/AttributeManager.swift; sourceTree = "<group>"; };
+		62126843045EA153175E46228EBE38DD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644D5A4A070255370C0228269AF6A908 /* OGImageProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OGImageProvider.swift; path = URLEmbeddedView/OGImageProvider.swift; sourceTree = "<group>"; };
+		65BF54F492327141213337DBC2562879 /* URLEmbeddedView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = URLEmbeddedView.xcconfig; sourceTree = "<group>"; };
+		6D54CC5A66251FA139E78994BC4EE1D0 /* OGData+CoreDataProperties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OGData+CoreDataProperties.swift"; path = "URLEmbeddedView/OGData+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6F07D3095E61D663F686089EA0FAF376 /* Kanna.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Kanna.modulemap; sourceTree = "<group>"; };
+		70237B28A980DA4EF6EE19EFC194FDAE /* URLEmbeddedView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "URLEmbeddedView-dummy.m"; sourceTree = "<group>"; };
+		846CFA7AC88B9FD943057D742E1E1062 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8766746290259F8471E626748DE92F57 /* Kanna.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Kanna.h; path = Sources/Kanna/Kanna.h; sourceTree = "<group>"; };
+		8C346305A8EA32F066B6E065818D36DA /* Kanna-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Kanna-prefix.pch"; sourceTree = "<group>"; };
+		8DB3810AD0790578B373A80A37664012 /* libxmlParserOption.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlParserOption.swift; path = Sources/Kanna/libxmlParserOption.swift; sourceTree = "<group>"; };
+		90A971003F52659348CF536A0CDFE6AB /* Pods-birthday-wishesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-birthday-wishesTests.modulemap"; sourceTree = "<group>"; };
+		920103B4D1775CFAADFDA72EF235D7AF /* Pods-birthday-wishesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthday-wishesTests-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		978CD6CFFC832ADDA5A0AA1BFDF88ABE /* OGData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OGData.swift; path = URLEmbeddedView/OGData.swift; sourceTree = "<group>"; };
+		9D675A0AB2778A4E1A62C5E8780132B9 /* Kanna.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Kanna.xcconfig; sourceTree = "<group>"; };
+		A1642E7FF9963A4142D306D2680FC12A /* LinkIconView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LinkIconView.swift; path = URLEmbeddedView/LinkIconView.swift; sourceTree = "<group>"; };
+		AB963F49EF3F1BAE84A5E58D9D89D7E3 /* Pods-birthday-wishes.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthday-wishes.debug.xcconfig"; sourceTree = "<group>"; };
+		AF4265D65075AB8BA43BF824DD1C7861 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B2308474415C75547591A828C4C94FE3 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5ECDCE8D02A74752F54D7327767B8B6 /* OGImageCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OGImageCacheManager.swift; path = URLEmbeddedView/OGImageCacheManager.swift; sourceTree = "<group>"; };
+		B86BD474D05E6977640FCC002B123DB6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreData.framework; sourceTree = DEVELOPER_DIR; };
+		BD949DA59ECD64C5A72AC16C2044A1F0 /* URLEmbeddedView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = URLEmbeddedView.framework; path = URLEmbeddedView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE69EFEEDE2A87311139FDF925482C67 /* Pods-birthday-wishes-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-birthday-wishes-umbrella.h"; sourceTree = "<group>"; };
+		BF77BDEBD732990CB22F1879CC91511F /* Pods-birthday-wishesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-birthday-wishesTests-dummy.m"; sourceTree = "<group>"; };
+		C33A49CC46BF541A23835016006F9EE2 /* AutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AutoLayout.swift; path = URLEmbeddedView/AutoLayout.swift; sourceTree = "<group>"; };
+		CB4E52B8714F5919E8398C53CBFB496B /* OGDataCacheManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OGDataCacheManager.swift; path = URLEmbeddedView/OGDataCacheManager.swift; sourceTree = "<group>"; };
+		D2CC2853614626431AE7985556BE92B4 /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = URLEmbeddedView/MD5.swift; sourceTree = "<group>"; };
+		D46A9BB6F04F5FAE2AB8593F8E0E5A80 /* libxmlHTMLDocument.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = libxmlHTMLDocument.swift; path = Sources/Kanna/libxmlHTMLDocument.swift; sourceTree = "<group>"; };
+		D742CA85129E7720B69D9A670B505F0E /* Pods-birthday-wishesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-birthday-wishesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DDCA9701A2223BAE245DF9B9376B62E8 /* Pods_birthday_wishesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_birthday_wishesTests.framework; path = "Pods-birthday-wishesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE01C8C698024431163699A32C7F7E42 /* NSUserDefaults+URLEmbeddedView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSUserDefaults+URLEmbeddedView.swift"; path = "URLEmbeddedView/NSUserDefaults+URLEmbeddedView.swift"; sourceTree = "<group>"; };
+		F09F30008D30F70233DD14635C92ABE0 /* URLEmbeddedView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "URLEmbeddedView-umbrella.h"; sourceTree = "<group>"; };
+		F0E1BC97FEA0A19D935BE79F062A292C /* Pods-birthday-wishesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-birthday-wishesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F1993E117F219CC2DA213C9232A402B5 /* Pods_birthday_wishes.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_birthday_wishes.framework; path = "Pods-birthday-wishes.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2FF3FC1BC46EAE6C13592C54FE4C0EB /* Pods-birthday-wishes.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-birthday-wishes.modulemap"; sourceTree = "<group>"; };
+		F4807B687229B2E271C5F95CF7137CB5 /* Pods-birthday-wishes-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-birthday-wishes-frameworks.sh"; sourceTree = "<group>"; };
+		F4B136E5A56E7057D68E2ABA594263CB /* Pods-birthday-wishes-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-birthday-wishes-acknowledgements.plist"; sourceTree = "<group>"; };
+		F6EABD944C4309CB0C4B37661E76874C /* Pods-birthday-wishes.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-birthday-wishes.release.xcconfig"; sourceTree = "<group>"; };
+		F9A45672821DFFDE40CF0DA62F25B2A0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA7DFB19C43C6509A300EE250F9EFDA3 /* Kanna.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Kanna.swift; path = Sources/Kanna/Kanna.swift; sourceTree = "<group>"; };
+		FB4500DE0D6C92351D3DE65D8734E7FD /* URLImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLImageView.swift; path = URLEmbeddedView/URLImageView.swift; sourceTree = "<group>"; };
+		FCAD64428333E2E339C3693C8EF903D7 /* LinkIcon.pdf */ = {isa = PBXFileReference; includeInIndex = 1; name = LinkIcon.pdf; path = Resources/LinkIcon.pdf; sourceTree = "<group>"; };
+		FF330921E4E87074DA767D9256EEE476 /* URLEmbeddedViewOGData2.xcdatamodel */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcdatamodel; path = URLEmbeddedViewOGData2.xcdatamodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E060FE9E874453584EC62C1721D3BE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4FF9809EBDAA925149F0A60D390BDD72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69074CE59D517061BE4B50930A4CDD7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52D1298545E0584446BF204E1ACDD0CC /* CoreData.framework in Frameworks */,
+				DEB355BD46C50E1F4DC779C290C61EEC /* CoreGraphics.framework in Frameworks */,
+				F162DCCDB4ED88E5498879847E5CF7C0 /* Foundation.framework in Frameworks */,
+				309000D57FF0CDDC352804D7C7FE9596 /* Kanna.framework in Frameworks */,
+				AC2C938FD5A7BE73F8CAD8D7EED0A696 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B26FEF1A0E7E734EE57A74A7D845B0F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ADDB372030582054CAE4F5CF6431613 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCEBABA31AC46058CFADC9FE2020220F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FA42649A31E3018EF9F4085856AF1C5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07B10EC526DD21283960087058869FF8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				B86BD474D05E6977640FCC002B123DB6 /* CoreData.framework */,
+				AF4265D65075AB8BA43BF824DD1C7861 /* CoreGraphics.framework */,
+				3C9456AF24FC473DD4220A048D59EC06 /* Foundation.framework */,
+				846CFA7AC88B9FD943057D742E1E1062 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		1274B18D2CE5321614A9BB94F38A16FF /* URLEmbeddedView */ = {
+			isa = PBXGroup;
+			children = (
+				46EF8FF77F1EDEC7554537B7F57BD0CD /* AttributedTextProvider.swift */,
+				6105A3CF49C327267CDE32D3FFCF9DEA /* AttributeManager.swift */,
+				C33A49CC46BF541A23835016006F9EE2 /* AutoLayout.swift */,
+				A1642E7FF9963A4142D306D2680FC12A /* LinkIconView.swift */,
+				D2CC2853614626431AE7985556BE92B4 /* MD5.swift */,
+				2468164D76507819B4E86DFD7F79F659 /* NSTimeInterval+Util.swift */,
+				EE01C8C698024431163699A32C7F7E42 /* NSUserDefaults+URLEmbeddedView.swift */,
+				978CD6CFFC832ADDA5A0AA1BFDF88ABE /* OGData.swift */,
+				6D54CC5A66251FA139E78994BC4EE1D0 /* OGData+CoreDataProperties.swift */,
+				CB4E52B8714F5919E8398C53CBFB496B /* OGDataCacheManager.swift */,
+				2C27F2408FBACA1ADCB2C6717A1C1404 /* OGDataProvider.swift */,
+				B5ECDCE8D02A74752F54D7327767B8B6 /* OGImageCacheManager.swift */,
+				644D5A4A070255370C0228269AF6A908 /* OGImageProvider.swift */,
+				073472BC61F5C4CDA443BD9F62A98E37 /* TaskContainable.swift */,
+				007FB6652FCD2D21A643F3325100F833 /* URLEmbeddedView.swift */,
+				42FDDD65A7D72FFF631C305C0462DFC6 /* URLEmbeddedView+Inspectable.swift */,
+				FB4500DE0D6C92351D3DE65D8734E7FD /* URLImageView.swift */,
+				1C303754EC7A743222E94709010EA5AD /* Resources */,
+				6583BAD8350BBD1E431DB3A688944CF9 /* Support Files */,
+			);
+			name = URLEmbeddedView;
+			path = URLEmbeddedView;
+			sourceTree = "<group>";
+		};
+		1680EDABE381F2AA26806FC39E479439 /* Pods-birthday-wishesTests */ = {
+			isa = PBXGroup;
+			children = (
+				B2308474415C75547591A828C4C94FE3 /* Info.plist */,
+				90A971003F52659348CF536A0CDFE6AB /* Pods-birthday-wishesTests.modulemap */,
+				D742CA85129E7720B69D9A670B505F0E /* Pods-birthday-wishesTests-acknowledgements.markdown */,
+				F0E1BC97FEA0A19D935BE79F062A292C /* Pods-birthday-wishesTests-acknowledgements.plist */,
+				BF77BDEBD732990CB22F1879CC91511F /* Pods-birthday-wishesTests-dummy.m */,
+				4F2657B724C1ADC9E34E0160292F2F2E /* Pods-birthday-wishesTests-frameworks.sh */,
+				920103B4D1775CFAADFDA72EF235D7AF /* Pods-birthday-wishesTests-resources.sh */,
+				5D86013C77938058903C99E9DCCE964A /* Pods-birthday-wishesTests-umbrella.h */,
+				08DBA091D4D8A28CA446E75AECE82C1C /* Pods-birthday-wishesTests.debug.xcconfig */,
+				3BC0466090CE06F2A50F078E300B2F50 /* Pods-birthday-wishesTests.release.xcconfig */,
+			);
+			name = "Pods-birthday-wishesTests";
+			path = "Target Support Files/Pods-birthday-wishesTests";
+			sourceTree = "<group>";
+		};
+		1C303754EC7A743222E94709010EA5AD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FCAD64428333E2E339C3693C8EF903D7 /* LinkIcon.pdf */,
+				683F32B67398DE3EC117FFAD8BF13A11 /* URLEmbeddedViewOGData.xcdatamodeld */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		244EFD7F89CC50B464EA06842EB2D602 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				456B4509DE5580DCDE4E4B17D170C065 /* Kanna.framework */,
+				07B10EC526DD21283960087058869FF8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2829F249B39D32CFBEA7490A45FA3A32 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0219AE116361D1C0D253FDEC5DA6BEAD /* Kanna.framework */,
+				F1993E117F219CC2DA213C9232A402B5 /* Pods_birthday_wishes.framework */,
+				DDCA9701A2223BAE245DF9B9376B62E8 /* Pods_birthday_wishesTests.framework */,
+				BD949DA59ECD64C5A72AC16C2044A1F0 /* URLEmbeddedView.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		38CB56485A0AAFA4E5F1EE87933C55DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A1F5C51A38A3587BB04145B443A2760 /* Info.plist */,
+				6F07D3095E61D663F686089EA0FAF376 /* Kanna.modulemap */,
+				9D675A0AB2778A4E1A62C5E8780132B9 /* Kanna.xcconfig */,
+				46F8360C77C8B25DEF869F08F9AC1FC9 /* Kanna-dummy.m */,
+				8C346305A8EA32F066B6E065818D36DA /* Kanna-prefix.pch */,
+				2D91E9928F7192AE0B027CCED319085D /* Kanna-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Kanna";
+			sourceTree = "<group>";
+		};
+		430492A019FF206BCD2FA743785A117D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92761A64A56EB1676DC8DEF765052E31 /* Kanna */,
+				1274B18D2CE5321614A9BB94F38A16FF /* URLEmbeddedView */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4BC06CBE6693AA6299736418C7EDA10E /* Pods-birthday-wishes */ = {
+			isa = PBXGroup;
+			children = (
+				F9A45672821DFFDE40CF0DA62F25B2A0 /* Info.plist */,
+				F2FF3FC1BC46EAE6C13592C54FE4C0EB /* Pods-birthday-wishes.modulemap */,
+				2EA910ADEFABD9F42D67E2A38C00E494 /* Pods-birthday-wishes-acknowledgements.markdown */,
+				F4B136E5A56E7057D68E2ABA594263CB /* Pods-birthday-wishes-acknowledgements.plist */,
+				4CF25AD710427E896412346E8E1BE491 /* Pods-birthday-wishes-dummy.m */,
+				F4807B687229B2E271C5F95CF7137CB5 /* Pods-birthday-wishes-frameworks.sh */,
+				0114BCB5287E500EE8F74803C5FDDF0F /* Pods-birthday-wishes-resources.sh */,
+				BE69EFEEDE2A87311139FDF925482C67 /* Pods-birthday-wishes-umbrella.h */,
+				AB963F49EF3F1BAE84A5E58D9D89D7E3 /* Pods-birthday-wishes.debug.xcconfig */,
+				F6EABD944C4309CB0C4B37661E76874C /* Pods-birthday-wishes.release.xcconfig */,
+			);
+			name = "Pods-birthday-wishes";
+			path = "Target Support Files/Pods-birthday-wishes";
+			sourceTree = "<group>";
+		};
+		6583BAD8350BBD1E431DB3A688944CF9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				62126843045EA153175E46228EBE38DD /* Info.plist */,
+				26245624DFDA3D5F2CECE9EE27D18D4F /* URLEmbeddedView.modulemap */,
+				65BF54F492327141213337DBC2562879 /* URLEmbeddedView.xcconfig */,
+				70237B28A980DA4EF6EE19EFC194FDAE /* URLEmbeddedView-dummy.m */,
+				3BBE036B4A443BA521C0E7CCEC5B9912 /* URLEmbeddedView-prefix.pch */,
+				F09F30008D30F70233DD14635C92ABE0 /* URLEmbeddedView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/URLEmbeddedView";
+			sourceTree = "<group>";
+		};
+		75308E160E687FB55AF6CA8F25C3E293 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4BC06CBE6693AA6299736418C7EDA10E /* Pods-birthday-wishes */,
+				1680EDABE381F2AA26806FC39E479439 /* Pods-birthday-wishesTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				244EFD7F89CC50B464EA06842EB2D602 /* Frameworks */,
+				430492A019FF206BCD2FA743785A117D /* Pods */,
+				2829F249B39D32CFBEA7490A45FA3A32 /* Products */,
+				75308E160E687FB55AF6CA8F25C3E293 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92761A64A56EB1676DC8DEF765052E31 /* Kanna */ = {
+			isa = PBXGroup;
+			children = (
+				042F830F0B56810EE90E420EF5B9A5AC /* CSS.swift */,
+				8766746290259F8471E626748DE92F57 /* Kanna.h */,
+				FA7DFB19C43C6509A300EE250F9EFDA3 /* Kanna.swift */,
+				D46A9BB6F04F5FAE2AB8593F8E0E5A80 /* libxmlHTMLDocument.swift */,
+				19EC126B8D992509030B3E185C34E1BB /* libxmlHTMLNode.swift */,
+				8DB3810AD0790578B373A80A37664012 /* libxmlParserOption.swift */,
+				38CB56485A0AAFA4E5F1EE87933C55DD /* Support Files */,
+			);
+			name = Kanna;
+			path = Kanna;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		47C3AC32EBFE00A23B26E17529A4662D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF7CD97A8EE3BFD2EF49A5815E19990 /* Pods-birthday-wishes-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		493DB611DDEC73A8889A147C392FAD87 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDA3C771334B54A542EE668A990FB0C /* Pods-birthday-wishesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		666A872F69F40328CBE89705FFAA5C5D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E944F9140F3BB06D40EE1153F405F68 /* URLEmbeddedView-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3CA17BFDDB0A81444254ACD04D49309 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				322F32F75AC8A04064F70A089800AF88 /* Kanna-umbrella.h in Headers */,
+				436871564BF1C99AA86206B69CDB40DD /* Kanna.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4D10E4FF5A483B852B47CCA0B994E340 /* Kanna */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 032FE6A4FF03E43B2C60899A35389C7F /* Build configuration list for PBXNativeTarget "Kanna" */;
+			buildPhases = (
+				252B13ABC5AE0EA65897098097C1703E /* Sources */,
+				B26FEF1A0E7E734EE57A74A7D845B0F9 /* Frameworks */,
+				A3CA17BFDDB0A81444254ACD04D49309 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kanna;
+			productName = Kanna;
+			productReference = 0219AE116361D1C0D253FDEC5DA6BEAD /* Kanna.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6473784C4BB6A544356761B964FAA472 /* Pods-birthday-wishes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 979C3E384F3CB7BFA1F6E417A684D01D /* Build configuration list for PBXNativeTarget "Pods-birthday-wishes" */;
+			buildPhases = (
+				DAED5F1F9F9EF1CC837000DE05397AD4 /* Sources */,
+				0E060FE9E874453584EC62C1721D3BE7 /* Frameworks */,
+				47C3AC32EBFE00A23B26E17529A4662D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73F63F933C9B586174ABD150137BFA74 /* PBXTargetDependency */,
+				B95881FEADF41B85ECE779608185F560 /* PBXTargetDependency */,
+			);
+			name = "Pods-birthday-wishes";
+			productName = "Pods-birthday-wishes";
+			productReference = F1993E117F219CC2DA213C9232A402B5 /* Pods_birthday_wishes.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8AAA0346B8920BBBD8DF0A4359ED15E4 /* Pods-birthday-wishesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8714B860968DD736E710AB6212EDBC4B /* Build configuration list for PBXNativeTarget "Pods-birthday-wishesTests" */;
+			buildPhases = (
+				F7427794FA9A0D84EA54B86E0952E811 /* Sources */,
+				CCEBABA31AC46058CFADC9FE2020220F /* Frameworks */,
+				493DB611DDEC73A8889A147C392FAD87 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-birthday-wishesTests";
+			productName = "Pods-birthday-wishesTests";
+			productReference = DDCA9701A2223BAE245DF9B9376B62E8 /* Pods_birthday_wishesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B455855AB25B4327F72DC377DCE15661 /* URLEmbeddedView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 246CB9E5BD17B89ADA8A9ED911509EF6 /* Build configuration list for PBXNativeTarget "URLEmbeddedView" */;
+			buildPhases = (
+				AAC292F2E89314166A3EC526D84A0E6E /* Sources */,
+				69074CE59D517061BE4B50930A4CDD7A /* Frameworks */,
+				AEF933ED502150D4A49FDE248E0EB054 /* Resources */,
+				666A872F69F40328CBE89705FFAA5C5D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				562749578E6CBE7D77EE9A3F5FAB2FEA /* PBXTargetDependency */,
+			);
+			name = URLEmbeddedView;
+			productName = URLEmbeddedView;
+			productReference = BD949DA59ECD64C5A72AC16C2044A1F0 /* URLEmbeddedView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 2829F249B39D32CFBEA7490A45FA3A32 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D10E4FF5A483B852B47CCA0B994E340 /* Kanna */,
+				6473784C4BB6A544356761B964FAA472 /* Pods-birthday-wishes */,
+				8AAA0346B8920BBBD8DF0A4359ED15E4 /* Pods-birthday-wishesTests */,
+				B455855AB25B4327F72DC377DCE15661 /* URLEmbeddedView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AEF933ED502150D4A49FDE248E0EB054 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0DB4EA9A6E225F4D47DC31EFC08280B /* LinkIcon.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		252B13ABC5AE0EA65897098097C1703E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF863C36D259D89189A0BDF54912C76E /* CSS.swift in Sources */,
+				3DB400D8B8AADDF43E1439E3441E814B /* Kanna-dummy.m in Sources */,
+				634F01C0D06986FD15F647234ADA7CBC /* Kanna.swift in Sources */,
+				781A4D12CC4A83EA4705C6029254B012 /* libxmlHTMLDocument.swift in Sources */,
+				08700CBB713B443AFA394EFD6B74E402 /* libxmlHTMLNode.swift in Sources */,
+				FD87F8764674EFAAF3AABCA2552E5127 /* libxmlParserOption.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC292F2E89314166A3EC526D84A0E6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C2D7F442CF0C1F21371E42AFF1237CE /* AttributedTextProvider.swift in Sources */,
+				62D4E2F3C65B75D7FFBCB09D30850129 /* AttributeManager.swift in Sources */,
+				60B064CE73434F0EF05BEC5E68F30304 /* AutoLayout.swift in Sources */,
+				B3A082160D62358DB8F7F7C9EC3C1B2E /* LinkIconView.swift in Sources */,
+				E018BD97BF4B85D6B89910DAC134D65B /* MD5.swift in Sources */,
+				488A4541D8B7910FE1E8F3703F9A6EA3 /* NSTimeInterval+Util.swift in Sources */,
+				1C3E609E2CAFDD9FAAFCA98256B973A9 /* NSUserDefaults+URLEmbeddedView.swift in Sources */,
+				E8C48CFC27DF7A6BE74125C04AEBF2A2 /* OGData+CoreDataProperties.swift in Sources */,
+				A4B33A77DD93E629F203CF25710FEA0F /* OGData.swift in Sources */,
+				631E31CDB13826FF2FB6CF95BA55391E /* OGDataCacheManager.swift in Sources */,
+				E89F681737CD990810086AFCE74C82FB /* OGDataProvider.swift in Sources */,
+				577A8741EB585646BCCA5401B0820D95 /* OGImageCacheManager.swift in Sources */,
+				CB9D7976C12527623445D7FD7A63B6C5 /* OGImageProvider.swift in Sources */,
+				7BA1CACD3626FEE711BC73F2B2971E09 /* TaskContainable.swift in Sources */,
+				57E46514DC7D6A3F1944CE4F2E600205 /* URLEmbeddedView+Inspectable.swift in Sources */,
+				356111B4079DD9FE62A8D96CB45EFFA6 /* URLEmbeddedView-dummy.m in Sources */,
+				28C23AF195F149001633604C101552B5 /* URLEmbeddedView.swift in Sources */,
+				1510B0BC51A3CD8127C3987814DD728D /* URLEmbeddedViewOGData.xcdatamodeld in Sources */,
+				C5427EAD25655E66C87E7BAB9B44BB91 /* URLImageView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DAED5F1F9F9EF1CC837000DE05397AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				932B765525295BF8C8A104BEE8AA839E /* Pods-birthday-wishes-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7427794FA9A0D84EA54B86E0952E811 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49171C6E4AE48F486FE4DDF2AA168CE9 /* Pods-birthday-wishesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		562749578E6CBE7D77EE9A3F5FAB2FEA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = 4D10E4FF5A483B852B47CCA0B994E340 /* Kanna */;
+			targetProxy = 3CF74F562410ADD927BCF648FD42C29F /* PBXContainerItemProxy */;
+		};
+		73F63F933C9B586174ABD150137BFA74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Kanna;
+			target = 4D10E4FF5A483B852B47CCA0B994E340 /* Kanna */;
+			targetProxy = BA1FA7FF4D629D20FFF0BBE77512DCCE /* PBXContainerItemProxy */;
+		};
+		B95881FEADF41B85ECE779608185F560 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = URLEmbeddedView;
+			target = B455855AB25B4327F72DC377DCE15661 /* URLEmbeddedView */;
+			targetProxy = C6E801FF676FD2EB34CC53F7661CF6DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2308E511E9BFDBA5C63AD1357DEF2CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BF54F492327141213337DBC2562879 /* URLEmbeddedView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/URLEmbeddedView/URLEmbeddedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URLEmbeddedView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/URLEmbeddedView/URLEmbeddedView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = URLEmbeddedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		238019DC2151DF9011B5F3AFEA37EB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC0466090CE06F2A50F078E300B2F50 /* Pods-birthday-wishesTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthday-wishesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthday-wishesTests/Pods-birthday-wishesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthday_wishesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C4500082E09B27FACC5011B08DEC28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D675A0AB2778A4E1A62C5E8780132B9 /* Kanna.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5C7A3EF2F1DD21AAC939379100E636FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB963F49EF3F1BAE84A5E58D9D89D7E3 /* Pods-birthday-wishes.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthday-wishes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthday-wishes/Pods-birthday-wishes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthday_wishes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		707B86CFB21B645E37109F39754D4051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B09ED3096C282B57D62297310282886 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6EABD944C4309CB0C4B37661E76874C /* Pods-birthday-wishes.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthday-wishes/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthday-wishes/Pods-birthday-wishes.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthday_wishes;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A4BBB0FB693973567E04D6C74DDF3739 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65BF54F492327141213337DBC2562879 /* URLEmbeddedView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/URLEmbeddedView/URLEmbeddedView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/URLEmbeddedView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/URLEmbeddedView/URLEmbeddedView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = URLEmbeddedView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B038322EEBE5E5E01925E4E31D88737B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D675A0AB2778A4E1A62C5E8780132B9 /* Kanna.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Kanna/Kanna-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Kanna/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Kanna/Kanna.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Kanna;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EF26A3C5B6EDA309192C6025F703DE0A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EF4DB407AAACBF5A98568D268B0205AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08DBA091D4D8A28CA446E75AECE82C1C /* Pods-birthday-wishesTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-birthday-wishesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-birthday-wishesTests/Pods-birthday-wishesTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_birthday_wishesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		032FE6A4FF03E43B2C60899A35389C7F /* Build configuration list for PBXNativeTarget "Kanna" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B038322EEBE5E5E01925E4E31D88737B /* Debug */,
+				3C4500082E09B27FACC5011B08DEC28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		246CB9E5BD17B89ADA8A9ED911509EF6 /* Build configuration list for PBXNativeTarget "URLEmbeddedView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4BBB0FB693973567E04D6C74DDF3739 /* Debug */,
+				2308E511E9BFDBA5C63AD1357DEF2CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF26A3C5B6EDA309192C6025F703DE0A /* Debug */,
+				707B86CFB21B645E37109F39754D4051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8714B860968DD736E710AB6212EDBC4B /* Build configuration list for PBXNativeTarget "Pods-birthday-wishesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF4DB407AAACBF5A98568D268B0205AB /* Debug */,
+				238019DC2151DF9011B5F3AFEA37EB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		979C3E384F3CB7BFA1F6E417A684D01D /* Build configuration list for PBXNativeTarget "Pods-birthday-wishes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C7A3EF2F1DD21AAC939379100E636FE /* Debug */,
+				9B09ED3096C282B57D62297310282886 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		683F32B67398DE3EC117FFAD8BF13A11 /* URLEmbeddedViewOGData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2966430C7880EDDBCCDD27FBD411F72F /* URLEmbeddedViewOGData.xcdatamodel */,
+				FF330921E4E87074DA767D9256EEE476 /* URLEmbeddedViewOGData2.xcdatamodel */,
+			);
+			currentVersion = FF330921E4E87074DA767D9256EEE476 /* URLEmbeddedViewOGData2.xcdatamodel */;
+			name = URLEmbeddedViewOGData.xcdatamodeld;
+			path = Resources/URLEmbeddedViewOGData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
